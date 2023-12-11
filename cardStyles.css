@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body {
+    background: #E9F0FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mainBox {
+    width: 500px;
+    height: 850px;
+    background: #fff;
+    border: 2px solid #D8D9E0;
+    border-radius: 42px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.infoBox > span {
+    color: #81859C;
+    font-size: 21px;
+    font-weight: 500;
+    align-self: end;
+}
+
+.infoBox > img {
+    width: 77%;
+    align-self: center;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.productInfo > span {
+    font-size: 28px;
+    font-weight: 500;
+    color: #363842;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.review ul {
+    display: flex;
+    list-style: none;
+}
+
+.review ul li {
+    width: 28px;
+    height: 28px;
+}
+
+.review > img {
+    width: 35px;
+    height: 35px;
+}
+
+.review > span {
+    font-size: 21px;
+    font-weight: 500;
+    color: #81859C;
+}
+
+.actionBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actionBox > button {
+    width: 98px;
+    height: 98px;
+    background: #2667FF;
+    border-radius: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 3px solid transparent;
+    color: #fff;
+    transition: all 0.15s ease;
+}
+
+.actionBox > button:hover {
+    color: #2667FF;
+    background: #fff;
+    border-color: #2667FF;
+}
+
+.actionBox > button > i {
+    font-size: 30px;
+}
+
+.productPrice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 98px;
+}
+
+.productPrice > span {
+    font-size: 47px;
+    font-weight: 600;
+    color: #363842;
+}
+
+.oldPrice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.oldPrice > span {
+    font-size: 28px;
+    font-weight: 500;
+    color: #81859C;
+    text-decoration-line: line-through;
+    text-decoration-thickness: 2px;
+}
+
+.oldPrice > div {
+    background: #E9F0FF;
+    color: #102B6B;
+    font-size: 21px;
+    font-weight: 500;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+}
